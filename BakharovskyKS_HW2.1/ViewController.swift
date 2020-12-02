@@ -24,16 +24,16 @@ class ViewController: UIViewController {
         valueColors += 1
         if valueColors == 1 {
             viewRed.alpha = 1
-            viewGreen.alpha = 0.5
+            viewGreen.alpha = 0.3
             startNextButton.setTitle("Next color", for: .normal)
             
         }
         if valueColors == 2 {
-            viewRed.alpha = 0.5
+            viewRed.alpha = 0.3
             viewYellow.alpha = 1
         }
         if valueColors == 3 {
-            viewYellow.alpha = 0.5
+            viewYellow.alpha = 0.3
             viewGreen.alpha = 1
             valueColors = 0
         }
